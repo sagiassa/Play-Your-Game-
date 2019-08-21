@@ -1,0 +1,47 @@
+use sql_project;
+-- DROP TABLE game_corts;
+-- CREATE TABLE game_corts (
+--     cort_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--     cort_type TEXT,
+--     city TEXT,
+--     cort_name TEXT,
+--     adress TEXT
+-- );
+-- INSERT INTO game_corts VALUES(null, 'basketball', 'tel-aviv', 'the hood', 'kedem' );
+-- CREATE TABLE users (
+--     u_id  INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--     F_name VARCHAR(15),
+--     L_name VARCHAR(15),
+--     username VARCHAR(15),
+--     user_password VARCHAR(15),
+--     email TEXT,
+--     phone_number INT
+-- );
+-- DROP TABLE usersFilters;
+-- CREATE TABLE usersFilters (
+--     userFilters_id INT, 
+--     gender VARCHAR(1),
+--     age VARCHAR(5),
+--     sport TEXT,
+--     user_level TEXT
+-- );
+-- DROP TABLE posts;
+
+-- CREATE TABLE posts(
+--     post_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--     gender VARCHAR(1),
+--     age VARCHAR(5),
+--     sport INT,
+--     game_level INT,
+--     game_day TEXT,
+--     game_time TEXT,
+--     city TEXT,
+--     adress TEXT,
+--     cort_name TEXT
+-- );
+
+-- CREATE TABLE users_freeTime (
+--     user_id INT , FOREIGN KEY(user_id) REFERENCES users(u_id),
+--     ft_day TEXT,
+--     ft_time TEXT
+-- )
